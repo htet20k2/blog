@@ -24,6 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('article.index') }}">Article List</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('users') }}">Users List</a>
+                </li>
                     
                 @endauth
                 @guest

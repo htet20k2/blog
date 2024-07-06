@@ -71,7 +71,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="5" class=" text-center">
+                            <td colspan="6" class=" text-center">
                                 <p>
                                     There is no record
                                 </p>
@@ -81,7 +81,9 @@
                     @endforelse
                 </tbody>
             </table>
-
+            <div class="">
+                {{ $articles->onEachSide(1)->links() }}
+            </div>
         </div>
     </div>
  </div>
